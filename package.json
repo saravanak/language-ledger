@@ -8,9 +8,16 @@
   "engines": {
     "atom": ">=1.2.0"
   },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "4.0.0": "provide"
+      }
+    }
+  },
   "dependencies": {
     "javascript-state-machine": "^2.3.5",
-    "ledger-cli": "https://github.com/4ourbit/node-ledger/tarball/master",
+    "ledger-cli": "https://github.com/saravanak/node-ledger/tarball/master",
     "pluralize": "^1.1.2"
   }
 }

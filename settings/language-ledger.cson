@@ -94,18 +94,6 @@
     | (=\\ )
     )' # increase indent eval after newline insertion, w/ preceding row pattern
 
-'.source.ledger .string.account':
-  autocomplete:
-    symbols:
-      Account:
-        selector: '.string.account'
-
-'.source.ledger .string.payee':
-  autocomplete:
-    symbols:
-      Payee:
-        selector: '.string.payee'
-
 '.source.ledger .comment.line':
   editor:
     decreaseIndentPattern: '^'
